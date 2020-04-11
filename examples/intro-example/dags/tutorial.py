@@ -97,7 +97,7 @@ t3 = BashOperator(
     task_id='templated',
     depends_on_past=False,
     bash_command=templated_command,
-    params={'my_param': 'Parameter I passed in'},
+    params={'my_param': 'Congrats with first pipeline. guys!'},
     dag=dag,
 )
 
